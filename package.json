@@ -1,0 +1,32 @@
+{
+  "name": "create-vite-ssr",
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "relay": "relay-compiler",
+    "dev": "vilay dev",
+    "build": "vilay build",
+    "start": "vilay start",
+    "preview": "vilay preview"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.9",
+    "babel-plugin-relay": "^13.2.0",
+    "ohmyfetch": "^0.4.15",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-error-boundary": "^3.1.4",
+    "react-relay": "^13.2.0",
+    "relay-runtime": "^13.2.0",
+    "vilay": "^0.0.8",
+    "vite": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/react-relay": "^13.0.2",
+    "@types/relay-runtime": "^13.0.3",
+    "@unocss/reset": "^0.30.12",
+    "relay-compiler": "^13.2.0",
+    "unocss": "^0.30.12"
+  }
+}
