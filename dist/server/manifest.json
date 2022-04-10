@@ -1,0 +1,56 @@
+{
+  "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/node/page-files/pageFiles-node.js": {
+    "file": "pageFiles.js",
+    "src": "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/node/page-files/pageFiles-node.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/index.page.tsx",
+      "renderer/_default.page.tsx",
+      "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.tsx",
+      "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_error.page.tsx",
+      "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.server.tsx"
+    ],
+    "css": [
+      "assets/pageFiles.67b6f760.css"
+    ]
+  },
+  "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/cjs/node/importBuild.js": {
+    "file": "importBuild.js",
+    "src": "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/cjs/node/importBuild.js",
+    "isEntry": true
+  },
+  "pages/index.page.tsx": {
+    "file": "assets/index.page.5f06e199.js",
+    "src": "pages/index.page.tsx",
+    "isDynamicEntry": true,
+    "css": [
+      "assets/index.page.70fe5f99.css"
+    ]
+  },
+  "renderer/_default.page.tsx": {
+    "file": "assets/_default.page.d3fb72e5.js",
+    "src": "renderer/_default.page.tsx",
+    "isDynamicEntry": true,
+    "css": [
+      "assets/_default.page.60d9ae7f.css"
+    ]
+  },
+  "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.tsx": {
+    "file": "assets/chunk-66097e5b.js",
+    "src": "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.tsx",
+    "isDynamicEntry": true
+  },
+  "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_error.page.tsx": {
+    "file": "assets/chunk-d9a57f34.js",
+    "src": "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_error.page.tsx",
+    "isDynamicEntry": true,
+    "css": [
+      "assets/_error.page.b591778d.css"
+    ]
+  },
+  "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.server.tsx": {
+    "file": "assets/chunk-31eb61a6.js",
+    "src": "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.server.tsx",
+    "isDynamicEntry": true
+  }
+}

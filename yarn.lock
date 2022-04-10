@@ -286,7 +286,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.17.9, @babel/runtime@npm:^7.7.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.7.2":
   version: 7.17.9
   resolution: "@babel/runtime@npm:7.17.9"
   dependencies:
@@ -485,12 +485,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.0":
-  version: 18.0.0
-  resolution: "@types/react-dom@npm:18.0.0"
+"@types/react-dom@npm:^17.0.14":
+  version: 17.0.15
+  resolution: "@types/react-dom@npm:17.0.15"
   dependencies:
-    "@types/react": "*"
-  checksum: 0d8c9cb3e72aefe0dd2b58a49845a200369f01ae92f3f11f642e04efc95dfd1c9380b6592d4273dd6113fb8707947d15b66d56c75c41f39f28bd897f0c08dfa9
+    "@types/react": ^17
+  checksum: 7b90372bd7207d3860e1043ebfe10fd21fbd9ec3417a29593ca14359774830c888ba4ebb25cf0510628607496f8d35b09d23d329ea709b9311f5866185c5fd67
   languageName: node
   linkType: hard
 
@@ -504,7 +504,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.0":
+"@types/react@npm:*":
   version: 18.0.0
   resolution: "@types/react@npm:18.0.0"
   dependencies:
@@ -512,6 +512,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 8a9769e2cabe335c86179881577e6ca32f3a6abdd5adbe2d498e48b78d532130da828a53ef25f21915179da454654b811292e0a8191c8a81af3bf4b05f5673bd
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^17, @types/react@npm:^17.0.43":
+  version: 17.0.44
+  resolution: "@types/react@npm:17.0.44"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: ebee02778ca08f954c316dc907802264e0121c87b8fa2e7e0156ab0ef2a1b0a09d968c016a3600ec4c9a17dc09b4274f292d9b15a1a5369bb7e4072def82808f
   languageName: node
   linkType: hard
 
@@ -643,7 +654,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/reset@npm:0.30.12, @unocss/reset@npm:^0.30.12":
+"@unocss/reset@npm:0.30.12, @unocss/reset@npm:^0.30.8":
   version: 0.30.12
   resolution: "@unocss/reset@npm:0.30.12"
   checksum: 74a019cd94d280cf535ef42d717d2b58a110ea44fa8c3f7885164cf1a204772c6d25ea236a7e0b486b78a6a89df4f9481a124d33abe5111731609522f1e8797c
@@ -1177,12 +1188,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "create-vite-ssr@workspace:."
   dependencies:
-    "@babel/runtime": ^7.17.9
-    "@types/react": ^18.0.0
-    "@types/react-dom": ^18.0.0
+    "@babel/runtime": ^7.17.8
+    "@types/react": ^17.0.43
+    "@types/react-dom": ^17.0.14
     "@types/react-relay": ^13.0.2
     "@types/relay-runtime": ^13.0.3
-    "@unocss/reset": ^0.30.12
+    "@unocss/reset": ^0.30.8
     babel-plugin-relay: ^13.2.0
     ohmyfetch: ^0.4.15
     react: ^18.0.0
@@ -1191,7 +1202,7 @@ __metadata:
     react-relay: ^13.2.0
     relay-compiler: ^13.2.0
     relay-runtime: ^13.2.0
-    unocss: ^0.30.12
+    unocss: ^0.30.8
     vilay: ^0.0.8
     vite: ^2.9.1
   languageName: unknown
@@ -3488,7 +3499,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unocss@npm:^0.30.12":
+"unocss@npm:^0.30.8":
   version: 0.30.12
   resolution: "unocss@npm:0.30.12"
   dependencies:

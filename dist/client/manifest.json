@@ -1,0 +1,104 @@
+{
+  "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+    "file": "assets/entry-client-routing.a9e7d656.js",
+    "src": "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_chunk-eafe9c88.js"
+    ]
+  },
+  "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+    "file": "assets/entry-server-routing.6f5da058.js",
+    "src": "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_chunk-eafe9c88.js"
+    ]
+  },
+  "_chunk-eafe9c88.js": {
+    "file": "assets/chunk-eafe9c88.js",
+    "dynamicImports": [
+      "pages/index.page.tsx",
+      "renderer/_default.page.tsx",
+      "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.tsx",
+      "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_error.page.tsx",
+      "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.client.tsx",
+      "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.server.tsx?extractStyles&lang.tsx"
+    ],
+    "css": [
+      "assets/chunk-f6c8a728.css"
+    ]
+  },
+  "pages/index.page.tsx": {
+    "file": "assets/index.page.43d38412.js",
+    "src": "pages/index.page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-064f8553.js",
+      "_chunk-b0b50060.js",
+      "_chunk-eb00f8b0.js"
+    ],
+    "css": [
+      "assets/index.page.28680b58.css"
+    ]
+  },
+  "_chunk-064f8553.js": {
+    "file": "assets/chunk-064f8553.js",
+    "imports": [
+      "_chunk-b0b50060.js",
+      "_chunk-eb00f8b0.js"
+    ]
+  },
+  "_chunk-b0b50060.js": {
+    "file": "assets/chunk-b0b50060.js"
+  },
+  "_chunk-eb00f8b0.js": {
+    "file": "assets/chunk-eb00f8b0.js"
+  },
+  "renderer/_default.page.tsx": {
+    "file": "assets/_default.page.9bf6c23d.js",
+    "src": "renderer/_default.page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-b0b50060.js",
+      "_chunk-eb00f8b0.js"
+    ],
+    "css": [
+      "assets/_default.page.478c2c0c.css"
+    ]
+  },
+  "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.tsx": {
+    "file": "assets/chunk-e7bff1ce.js",
+    "src": "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.tsx",
+    "isDynamicEntry": true
+  },
+  "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_error.page.tsx": {
+    "file": "assets/chunk-a3c43db3.js",
+    "src": "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_error.page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-b0b50060.js"
+    ],
+    "css": [
+      "assets/_error.page.fd654cd9.css"
+    ]
+  },
+  "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.client.tsx": {
+    "file": "assets/chunk-b5f811bb.js",
+    "src": "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.client.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-b0b50060.js",
+      "_chunk-064f8553.js",
+      "_chunk-eb00f8b0.js"
+    ],
+    "css": [
+      "assets/_default.page.client.28e21179.css"
+    ]
+  },
+  "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.server.tsx?extractStyles&lang.tsx": {
+    "file": "assets/chunk-87797ab9.js",
+    "src": "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.server.tsx?extractStyles&lang.tsx",
+    "isDynamicEntry": true
+  }
+}
