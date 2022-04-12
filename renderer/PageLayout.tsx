@@ -11,8 +11,8 @@ export const PageLayout: React.FC<PageLayoutProps> = ({
 }) => {
   const links = {
     '/': 'Home',
-    '/repo/xiniha/vilay/issues': 'Issues',
-    '/repo/xiniha/vilay/issues/create': 'Create Issue',
+    '/repo/moogieon/create-vite-ssr/issues': 'Issues',
+    '/repo/moogieon/create-vite-ssr/issues/create': 'Create Issue',
   }
 
   return (

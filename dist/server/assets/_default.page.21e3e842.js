@@ -72,7 +72,7 @@ const initRelayEnvironment = (isServer, records) => {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-        Authorization: `Bearer ${"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"}`
+        Authorization: `Bearer ${"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"}`
       },
       body: JSON.stringify({ query, variables })
     });

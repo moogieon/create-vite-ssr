@@ -7,7 +7,7 @@ const node = function() {
     {
       "kind": "Literal",
       "name": "name",
-      "value": "creacte-vite-ssr"
+      "value": "create-vite-ssr"
     },
     {
       "kind": "Literal",
@@ -88,7 +88,7 @@ const node = function() {
             v5,
             v6
           ],
-          "storageKey": 'repository(name:"creacte-vite-ssr",owner:"moogieon")'
+          "storageKey": 'repository(name:"create-vite-ssr",owner:"moogieon")'
         }
       ],
       "type": "Query",
@@ -120,21 +120,21 @@ const node = function() {
               "storageKey": null
             }
           ],
-          "storageKey": 'repository(name:"creacte-vite-ssr",owner:"moogieon")'
+          "storageKey": 'repository(name:"create-vite-ssr",owner:"moogieon")'
         }
       ]
     },
     "params": {
-      "cacheID": "69619831d178fbc7d47ee088a3d2c66e",
+      "cacheID": "20400eeb2093da6d71c066b40a63f3f1",
       "id": null,
       "metadata": {},
       "name": "pagesPageQuery",
       "operationKind": "query",
-      "text": 'query pagesPageQuery {\n  repository(owner: "moogieon", name: "creacte-vite-ssr") {\n    name\n    stargazerCount\n    issues(first: 0) {\n      totalCount\n    }\n    openedIssues: issues(first: 0, filterBy: {states: OPEN}) {\n      totalCount\n    }\n    id\n  }\n}\n'
+      "text": 'query pagesPageQuery {\n  repository(owner: "moogieon", name: "create-vite-ssr") {\n    name\n    stargazerCount\n    issues(first: 0) {\n      totalCount\n    }\n    openedIssues: issues(first: 0, filterBy: {states: OPEN}) {\n      totalCount\n    }\n    id\n  }\n}\n'
     }
   };
 }();
-node.hash = "2f67cacd682ae7a6b2a3c28471899df0";
+node.hash = "d2eb4b4d8bc6a53add1f4030629c97e7";
 const query = node;
 const Page = ({
   queryRef

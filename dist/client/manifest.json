@@ -1,24 +1,25 @@
 {
   "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.a9e7d656.js",
+    "file": "assets/entry-client-routing.26c56a8b.js",
     "src": "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
-      "_chunk-eafe9c88.js"
+      "_chunk-1e3ae3c9.js"
     ]
   },
   "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.6f5da058.js",
+    "file": "assets/entry-server-routing.c81f48f9.js",
     "src": "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_chunk-eafe9c88.js"
+      "_chunk-1e3ae3c9.js"
     ]
   },
-  "_chunk-eafe9c88.js": {
-    "file": "assets/chunk-eafe9c88.js",
+  "_chunk-1e3ae3c9.js": {
+    "file": "assets/chunk-1e3ae3c9.js",
     "dynamicImports": [
       "pages/index.page.tsx",
+      "pages/issues.page.tsx",
       "renderer/_default.page.tsx",
       "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.tsx",
       "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_error.page.tsx",
@@ -30,7 +31,7 @@
     ]
   },
   "pages/index.page.tsx": {
-    "file": "assets/index.page.43d38412.js",
+    "file": "assets/index.page.65a8aa4b.js",
     "src": "pages/index.page.tsx",
     "isDynamicEntry": true,
     "imports": [
@@ -55,8 +56,22 @@
   "_chunk-eb00f8b0.js": {
     "file": "assets/chunk-eb00f8b0.js"
   },
+  "pages/issues.page.tsx": {
+    "file": "assets/issues.page.30d4b94a.js",
+    "src": "pages/issues.page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-064f8553.js",
+      "renderer/_default.page.tsx",
+      "_chunk-b0b50060.js",
+      "_chunk-eb00f8b0.js"
+    ],
+    "css": [
+      "assets/issues.page.2ce5499d.css"
+    ]
+  },
   "renderer/_default.page.tsx": {
-    "file": "assets/_default.page.9bf6c23d.js",
+    "file": "assets/_default.page.14d28ab6.js",
     "src": "renderer/_default.page.tsx",
     "isDynamicEntry": true,
     "imports": [

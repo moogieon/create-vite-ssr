@@ -5,6 +5,7 @@
     "isEntry": true,
     "dynamicImports": [
       "pages/index.page.tsx",
+      "pages/issues.page.tsx",
       "renderer/_default.page.tsx",
       "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.tsx",
       "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_error.page.tsx",
@@ -20,15 +21,26 @@
     "isEntry": true
   },
   "pages/index.page.tsx": {
-    "file": "assets/index.page.5f06e199.js",
+    "file": "assets/index.page.e15732d7.js",
     "src": "pages/index.page.tsx",
     "isDynamicEntry": true,
     "css": [
       "assets/index.page.70fe5f99.css"
     ]
   },
+  "pages/issues.page.tsx": {
+    "file": "assets/issues.page.cbb9a595.js",
+    "src": "pages/issues.page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "renderer/_default.page.tsx"
+    ],
+    "css": [
+      "assets/issues.page.1521447d.css"
+    ]
+  },
   "renderer/_default.page.tsx": {
-    "file": "assets/_default.page.d3fb72e5.js",
+    "file": "assets/_default.page.21e3e842.js",
     "src": "renderer/_default.page.tsx",
     "isDynamicEntry": true,
     "css": [

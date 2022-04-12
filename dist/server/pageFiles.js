@@ -16,6 +16,11 @@ var __spreadValues = (a, b) => {
   return a;
 };
 Object.defineProperties(exports, { __esModule: { value: true }, [Symbol.toStringTag]: { value: "Module" } });
+var issues_page_route = "/repo/:owner/:name/issues";
+var __vite_glob_next_2_0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": issues_page_route
+}, Symbol.toStringTag, { value: "Module" }));
 const exportNames = ["clientRouting", "render"];
 var __vite_glob_next_7_0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
@@ -29,10 +34,13 @@ const neverLoaded = {};
 const isGeneratedFile = true;
 const pageFilesLazyIsomorph1 = {
   "/pages/index.page.tsx": () => Promise.resolve().then(function() {
-    return require("./assets/index.page.5f06e199.js");
+    return require("./assets/index.page.e15732d7.js");
+  }),
+  "/pages/issues.page.tsx": () => Promise.resolve().then(function() {
+    return require("./assets/issues.page.cbb9a595.js");
   }),
   "/renderer/_default.page.tsx": () => Promise.resolve().then(function() {
-    return require("./assets/_default.page.d3fb72e5.js");
+    return require("./assets/_default.page.21e3e842.js");
   })
 };
 const pageFilesLazyIsomorph2 = {
@@ -45,7 +53,9 @@ const pageFilesLazyIsomorph2 = {
 };
 const pageFilesLazyIsomorph = __spreadValues(__spreadValues({}, pageFilesLazyIsomorph1), pageFilesLazyIsomorph2);
 pageFilesLazy[".page"] = pageFilesLazyIsomorph;
-const pageFilesEagerRoute1 = {};
+const pageFilesEagerRoute1 = {
+  "/pages/issues.page.route.tsx": __vite_glob_next_2_0
+};
 const pageFilesEagerRoute2 = {};
 const pageFilesEagerRoute = __spreadValues(__spreadValues({}, pageFilesEagerRoute1), pageFilesEagerRoute2);
 pageFilesEager[".page.route"] = pageFilesEagerRoute;
