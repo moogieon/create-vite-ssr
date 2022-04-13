@@ -17,8 +17,8 @@ const PageLayout = ({
 }) => {
   const links = {
     "/": "Home",
-    "/repo/xiniha/vilay/issues": "Issues",
-    "/repo/xiniha/vilay/issues/create": "Create Issue"
+    "/repo/moogieon/create-vite-ssr/issues": "Issues",
+    "/repo/moogieon/create-vite-ssr/issues/create": "Create Issue"
   };
   return /* @__PURE__ */ jsxRuntime.jsxs(jsxRuntime.Fragment, {
     children: [/* @__PURE__ */ jsxRuntime.jsx(LoadingIndicator, {
@@ -72,7 +72,7 @@ const initRelayEnvironment = (isServer, records) => {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-        Authorization: `Bearer ${"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"}`
+        Authorization: `Bearer ${"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"}`
       },
       body: JSON.stringify({ query, variables })
     });

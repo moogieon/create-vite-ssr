@@ -4,6 +4,7 @@
     "src": "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/node/page-files/pageFiles-node.js",
     "isEntry": true,
     "dynamicImports": [
+      "pages/createIssue.page.tsx",
       "pages/index.page.tsx",
       "pages/issues.page.tsx",
       "renderer/_default.page.tsx",
@@ -20,6 +21,14 @@
     "src": "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/cjs/node/importBuild.js",
     "isEntry": true
   },
+  "pages/createIssue.page.tsx": {
+    "file": "assets/createIssue.page.bd3370f0.js",
+    "src": "pages/createIssue.page.tsx",
+    "isDynamicEntry": true,
+    "css": [
+      "assets/createIssue.page.8b22a1b0.css"
+    ]
+  },
   "pages/index.page.tsx": {
     "file": "assets/index.page.e15732d7.js",
     "src": "pages/index.page.tsx",
@@ -29,18 +38,18 @@
     ]
   },
   "pages/issues.page.tsx": {
-    "file": "assets/issues.page.cbb9a595.js",
+    "file": "assets/issues.page.078cc0e7.js",
     "src": "pages/issues.page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "renderer/_default.page.tsx"
     ],
     "css": [
-      "assets/issues.page.1521447d.css"
+      "assets/issues.page.1a38dde3.css"
     ]
   },
   "renderer/_default.page.tsx": {
-    "file": "assets/_default.page.21e3e842.js",
+    "file": "assets/_default.page.dc6bc351.js",
     "src": "renderer/_default.page.tsx",
     "isDynamicEntry": true,
     "css": [
