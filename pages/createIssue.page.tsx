@@ -20,10 +20,30 @@ export const [commit, isInFlight] = useMutation<createIssueMutation>(graphql`
 
 export const Page: React.FC = () => {
   return (
-    <>
-      <form>
-        <div></div>
-      </form>
-    </>
+    <form onSubmit={onFormSubmit}>
+    <div className="my-2">
+      <label htmlFor="title-input">Title</label>
+      <input
+        id="title-input"
+        type="text"
+        name="title"
+        required
+        className="mx-2 border-b border-gray-500"
+      />
+    </div>
+    <div className="my-2">
+      <label htmlFor="body-input">Body</label>
+      <br />
+      <textarea
+        id="body-input"
+        name="body"
+        className="my-1 border border-gray-500 rounded-xl p-3 resize-none"
+        placeholder="Write something..."
+      />
+    </div>
+    {/* <Button type="submit" disabled={isInFlight}>
+      {isInFlight ? 'Creating...' : 'Create'}
+    </Button> */}
+  </form>
   );
 };
