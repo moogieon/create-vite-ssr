@@ -1,1 +1,0 @@
-import{j as r,F as n,a as e}from"./chunk-b0b50060.js";const l=({is404:t})=>t?r(n,{children:[e("h1",{className:"text-xl",children:"404 Page Not Found"}),e("p",{children:"This page could not be found."})]}):r(n,{children:[e("h1",{className:"text-xl",children:"500 Internal Server Error"}),e("p",{children:"Something went wrong."})]});export{l as Page};

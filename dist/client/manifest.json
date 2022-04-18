@@ -1,23 +1,24 @@
 {
   "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.26c56a8b.js",
+    "file": "assets/entry-client-routing.37e59bba.js",
     "src": "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
-      "_chunk-1e3ae3c9.js"
+      "_chunk-6fb90e85.js"
     ]
   },
   "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.c81f48f9.js",
+    "file": "assets/entry-server-routing.db945eca.js",
     "src": "node_modules/.store/vite-plugin-ssr-virtual-4537f6e99e/node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_chunk-1e3ae3c9.js"
+      "_chunk-6fb90e85.js"
     ]
   },
-  "_chunk-1e3ae3c9.js": {
-    "file": "assets/chunk-1e3ae3c9.js",
+  "_chunk-6fb90e85.js": {
+    "file": "assets/chunk-6fb90e85.js",
     "dynamicImports": [
+      "pages/createIssue.page.tsx",
       "pages/index.page.tsx",
       "pages/issues.page.tsx",
       "renderer/_default.page.tsx",
@@ -27,55 +28,68 @@
       "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.server.tsx?extractStyles&lang.tsx"
     ],
     "css": [
-      "assets/chunk-f6c8a728.css"
+      "assets/chunk-49bbedb6.css"
     ]
   },
+  "pages/createIssue.page.tsx": {
+    "file": "assets/createIssue.page.aafd743d.js",
+    "src": "pages/createIssue.page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-626fbb3e.js",
+      "_chunk-cd4da2a8.js",
+      "_chunk-eb00f8b0.js"
+    ],
+    "css": [
+      "assets/createIssue.page.656acb3e.css"
+    ]
+  },
+  "_chunk-626fbb3e.js": {
+    "file": "assets/chunk-626fbb3e.js",
+    "imports": [
+      "_chunk-cd4da2a8.js",
+      "_chunk-eb00f8b0.js"
+    ]
+  },
+  "_chunk-cd4da2a8.js": {
+    "file": "assets/chunk-cd4da2a8.js"
+  },
+  "_chunk-eb00f8b0.js": {
+    "file": "assets/chunk-eb00f8b0.js"
+  },
   "pages/index.page.tsx": {
-    "file": "assets/index.page.65a8aa4b.js",
+    "file": "assets/index.page.513e7f97.js",
     "src": "pages/index.page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-064f8553.js",
-      "_chunk-b0b50060.js",
+      "_chunk-626fbb3e.js",
+      "_chunk-cd4da2a8.js",
       "_chunk-eb00f8b0.js"
     ],
     "css": [
       "assets/index.page.28680b58.css"
     ]
   },
-  "_chunk-064f8553.js": {
-    "file": "assets/chunk-064f8553.js",
-    "imports": [
-      "_chunk-b0b50060.js",
-      "_chunk-eb00f8b0.js"
-    ]
-  },
-  "_chunk-b0b50060.js": {
-    "file": "assets/chunk-b0b50060.js"
-  },
-  "_chunk-eb00f8b0.js": {
-    "file": "assets/chunk-eb00f8b0.js"
-  },
   "pages/issues.page.tsx": {
-    "file": "assets/issues.page.30d4b94a.js",
+    "file": "assets/issues.page.37533332.js",
     "src": "pages/issues.page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-064f8553.js",
+      "_chunk-cd4da2a8.js",
+      "_chunk-626fbb3e.js",
       "renderer/_default.page.tsx",
-      "_chunk-b0b50060.js",
       "_chunk-eb00f8b0.js"
     ],
     "css": [
-      "assets/issues.page.2ce5499d.css"
+      "assets/issues.page.ba0be28e.css"
     ]
   },
   "renderer/_default.page.tsx": {
-    "file": "assets/_default.page.14d28ab6.js",
+    "file": "assets/_default.page.00fa48d8.js",
     "src": "renderer/_default.page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-b0b50060.js",
+      "_chunk-cd4da2a8.js",
       "_chunk-eb00f8b0.js"
     ],
     "css": [
@@ -88,23 +102,23 @@
     "isDynamicEntry": true
   },
   "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_error.page.tsx": {
-    "file": "assets/chunk-a3c43db3.js",
+    "file": "assets/chunk-bd1f24fe.js",
     "src": "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_error.page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-b0b50060.js"
+      "_chunk-cd4da2a8.js"
     ],
     "css": [
       "assets/_error.page.fd654cd9.css"
     ]
   },
   "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.client.tsx": {
-    "file": "assets/chunk-b5f811bb.js",
+    "file": "assets/chunk-362bff2e.js",
     "src": "node_modules/.store/vilay-virtual-5e8c91b680/node_modules/vilay/renderer/_default.page.client.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-b0b50060.js",
-      "_chunk-064f8553.js",
+      "_chunk-cd4da2a8.js",
+      "_chunk-626fbb3e.js",
       "_chunk-eb00f8b0.js"
     ],
     "css": [

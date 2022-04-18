@@ -16,8 +16,13 @@ var __spreadValues = (a, b) => {
   return a;
 };
 Object.defineProperties(exports, { __esModule: { value: true }, [Symbol.toStringTag]: { value: "Module" } });
-var issues_page_route = "/repo/:owner/:name/issues";
+var createIssue_page_route = "/repo/:owner/:name/issues/create";
 var __vite_glob_next_2_0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": createIssue_page_route
+}, Symbol.toStringTag, { value: "Module" }));
+var issues_page_route = "/repo/:owner/:name/issues";
+var __vite_glob_next_2_1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": issues_page_route
 }, Symbol.toStringTag, { value: "Module" }));
@@ -33,14 +38,17 @@ const pageFilesExportNamesEager = {};
 const neverLoaded = {};
 const isGeneratedFile = true;
 const pageFilesLazyIsomorph1 = {
+  "/pages/createIssue.page.tsx": () => Promise.resolve().then(function() {
+    return require("./assets/createIssue.page.bd3370f0.js");
+  }),
   "/pages/index.page.tsx": () => Promise.resolve().then(function() {
     return require("./assets/index.page.e15732d7.js");
   }),
   "/pages/issues.page.tsx": () => Promise.resolve().then(function() {
-    return require("./assets/issues.page.cbb9a595.js");
+    return require("./assets/issues.page.078cc0e7.js");
   }),
   "/renderer/_default.page.tsx": () => Promise.resolve().then(function() {
-    return require("./assets/_default.page.21e3e842.js");
+    return require("./assets/_default.page.dc6bc351.js");
   })
 };
 const pageFilesLazyIsomorph2 = {
@@ -54,7 +62,8 @@ const pageFilesLazyIsomorph2 = {
 const pageFilesLazyIsomorph = __spreadValues(__spreadValues({}, pageFilesLazyIsomorph1), pageFilesLazyIsomorph2);
 pageFilesLazy[".page"] = pageFilesLazyIsomorph;
 const pageFilesEagerRoute1 = {
-  "/pages/issues.page.route.tsx": __vite_glob_next_2_0
+  "/pages/createIssue.page.route.tsx": __vite_glob_next_2_0,
+  "/pages/issues.page.route.tsx": __vite_glob_next_2_1
 };
 const pageFilesEagerRoute2 = {};
 const pageFilesEagerRoute = __spreadValues(__spreadValues({}, pageFilesEagerRoute1), pageFilesEagerRoute2);
