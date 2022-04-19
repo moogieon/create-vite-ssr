@@ -10,6 +10,10 @@ const IssueDetailComponent: React.FC<Props> = ({ issue }) => {
     graphql`
       fragment IssueDetail_issue on Issue {
         title
+        createdAt
+        author {
+          login
+        }
       }
     `,
     issue
