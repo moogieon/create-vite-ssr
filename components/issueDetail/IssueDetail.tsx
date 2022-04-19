@@ -16,7 +16,7 @@ const IssueDetailComponent: React.FC<Props> = ({ issue }) => {
   );
   return (
     <>
-      <div></div>
+      <div>{data.title}</div>
     </>
   );
 };
