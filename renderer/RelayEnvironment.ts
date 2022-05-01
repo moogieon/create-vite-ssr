@@ -15,12 +15,13 @@ export const initRelayEnvironment: InitRelayEnvironment = (
 ): Environment => {
   const network = Network.create(async ({ text: query }, variables) => {
     // Using GitHub API for example
+    const aaa= ""
     const response = await fetch("https://api.github.com/graphql", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-        Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
+        Authorization: `Bearer ${aaa}`,
       },
       body: JSON.stringify({ query, variables }),
     });
