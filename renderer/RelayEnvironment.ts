@@ -21,7 +21,7 @@ export const initRelayEnvironment: InitRelayEnvironment = (
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-        Authorization: `Bearer ${aaa}`,
+        Authorization: `Bearer ${"f1abe1214af209e2cbb4"}`,
       },
       body: JSON.stringify({ query, variables }),
     });
